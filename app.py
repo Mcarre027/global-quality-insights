@@ -1,5 +1,6 @@
 # app.py
 import dash
+import os
 from dash import dcc, html, Input, Output, State
 import dash_bootstrap_components as dbc
 import pages.home as home
