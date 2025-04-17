@@ -3,4 +3,3 @@ pandas
 plotly
 dash-bootstrap-components
 dash-player
-gunicorn
