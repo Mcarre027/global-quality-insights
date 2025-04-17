@@ -46,8 +46,8 @@ def layout(lang='fr'):
 
         # 📊 Graphiques côte à côte
         dbc.Row([
-            dbc.Col(dcc.Graph(id="graph-top-defauts"), md=6),
-            dbc.Col(dcc.Graph(id="graph-defauts-par-pays"), md=6),
+            dbc.Col(dcc.Graph(id="graph-top-defauts", figure={"data": [], "layout": {"title": "Top défauts"}}), md=6),
+            dbc.Col(dcc.Graph(id="graph-defauts-par-pays", figure={"data": [], "layout": {"title": "Défauts par pays"}}), md=6),
         ]),
 
         # 📈 Intégration Power BI
