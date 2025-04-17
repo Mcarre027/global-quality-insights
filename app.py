@@ -1,4 +1,3 @@
-# app.py
 import dash
 import os
 from dash import dcc, html, Input, Output, State
@@ -15,9 +14,8 @@ app = dash.Dash(
     external_stylesheets=[dbc.themes.BOOTSTRAP],
     title="Global Quality Insights"
 )
-import callbacks
 
-server = app.server  # Pour déploiement
+server = app.server  # Pour Railway
 
 # Store pour mémoriser la langue sélectionnée
 language_store = dcc.Store(id='language-store', data='fr')
@@ -37,7 +35,7 @@ navbar = dbc.NavbarSimple(
     className="mb-4"
 )
 
-# App layout
+# Layout global
 app.layout = html.Div([
     dcc.Location(id='url'),
     language_store,
@@ -45,7 +43,7 @@ app.layout = html.Div([
     html.Div(id='page-content')
 ])
 
-# Callbacks
+# Callback pour le bouton de langue
 @app.callback(
     Output('language-store', 'data'),
     Input('language-toggle', 'n_clicks'),
@@ -55,27 +53,30 @@ app.layout = html.Div([
 def switch_language(n_clicks, current_lang):
     return 'en' if current_lang == 'fr' else 'fr'
 
+# Callback de navigation
 @app.callback(
     Output('page-content', 'children'),
     [Input('url', 'pathname'),
      Input('language-store', 'data')]
 )
-
 def display_page(pathname, lang):
     if pathname == "/dashboard":
-        print(f"LANG = {lang}, PAGE = {pathname}")
         return dashboard.layout(lang)
     elif pathname == "/report":
         return report.layout(lang)
     else:
         return home.layout(lang)
-    
+
+# Import et enregistrement des callbacks globaux
+import callbacks
 callbacks.register_callbacks(app)
 
+# Lancement de l'application
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))
     app.run(
         host="0.0.0.0",
         port=port,
         debug=False,
-        use_reloader=False)
+        use_reloader=False
+    )
