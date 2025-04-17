@@ -1,0 +1,50 @@
+# 💊 Global Quality Insights
+
+**Application Dash - Suivi qualité multisite dans l'industrie pharmaceutique**
+
+## 🧭 Contexte
+
+Cette application a été conçue dans le cadre d’un projet de transformation digitale multisite dans le secteur pharmaceutique. Elle centralise les données de qualité (tickets, arrêts, indicateurs de performance) issues de plusieurs pays (France, Allemagne, États-Unis) et propose une visualisation claire et interactive pour les équipes qualité et les décideurs.
+
+## 🚀 Fonctionnalités
+
+- Dashboard interactif multilingue (🇫🇷 / 🇺🇸)
+- Visualisation des tickets par site, priorité, et statut
+- Graphiques interactifs (Plotly) adaptés au mobile
+- Intégration de rapports Power BI & documentation Confluence
+- Export PDF automatique de rapports qualité
+- Diagrammes Mermaid pour visualiser les processus
+
+## 🛠️ Technologies utilisées
+
+- Python & Dash
+- Plotly
+- Dash Bootstrap Components
+- Pandas
+- Confluence, Jira, Power BI (intégrés via liens)
+
+## 📦 Structure du projet
+
+📁 app.py # Fichier principal 📁 pages/ ├── home.py # Page d'accueil ├── dashboard.py # Dashboards qualité ├── report.py # Page rapports 📁 utils/ ├── data_loader.py # Chargement des données ├── graphs.py # Fonctions de visualisation 📁 assets/ └── style.css # Feuille de style 📄 requirements.txt 📄 Procfile 📄 README.md
+
+
+## 🔧 Lancer l'application en local
+
+```bash
+pip install -r requirements.txt
+python app.py
+
+
+☁️ Déploiement
+
+L’application est déployée sur Railway.
+
+🔗 Lien de l’application :
+
+👉 htt
+
+
+👤 Auteur
+Mathieu Carré
+Data Analyst en reconversion.
+📫 LinkedIn – 💼 Portfolio

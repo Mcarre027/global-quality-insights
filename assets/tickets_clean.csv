@@ -1,0 +1,149 @@
+Ticket_ID,Date_signalement,Site,Ligne_production,Produit,Type_incident,Priorite,Duree_minutes,Statut
+TCKT122,2025-03-05,France-Lyon,Ligne A1,IBUPRO400,défaut technique,critique,169,en cours
+TCKT002,2025-03-15,Germany-Dusseldorf,Linie 3,AMOX250C,manquant,majeure,45,clos
+TCKT053,2025-03-02,USA-Chicago,Line 4,IBUPRO400,erreur étiquetage,majeure,66,ouvert
+TCKT066,2025-03-02,USA-Chicago,Linie 3,IBUPRO400,contamination,mineure,22,ouvert
+TCKT032,2025-03-03,Germany-Munich,Linie 3,PARA500MG,contamination,critique,56,clos
+TCKT099,2025-03-02,France-Lyon,Linie 5,VACCINX,défaut technique,majeure,211,en cours
+TCKT044,2025-03-02,France-Lyon,Ligne C4,ASPIRIN81,défaut technique,majeure,218,ouvert
+TCKT071,2025-03-05,Germany-Munich,Line 4,VACCINX,documentation manquante,mineure,58,clos
+TCKT084,2025-03-19,Germany-Berlin,Ligne A1,AMOX250C,erreur étiquetage,mineure,15,ouvert
+TCKT009,2025-03-20,Germany-Berlin,Ligne A1,VACCINX,contamination,majeure,235,ouvert
+TCKT028,2025-03-01,USA-Boston,Line 2,AMOX500,documentation manquante,mineure,43,ouvert
+TCKT012,2025-03-27,France-Lyon,Ligne B2,PARA500MG,erreur étiquetage,mineure,53,ouvert
+TCKT113,2025-03-03,USA-Boston,Ligne A1,AMOX250C,documentation manquante,majeure,156,en cours
+TCKT077,2025-03-17,France-Grenoble,Line 2,AMOX250C,erreur étiquetage,mineure,36,clos
+TCKT118,2025-03-07,France-Lyon,Linie 2,VACCINX,erreur étiquetage,majeure,228,clos
+TCKT144,2025-03-05,Germany-Munich,Line 4,ZINCPLUS,documentation manquante,mineure,26,clos
+TCKT005,2025-03-06,Germany-Munich,Linie 5,AMOX250C,contamination,critique,228,clos
+TCKT018,2025-03-01,France-Grenoble,Linie 2,AMOX500,contamination,critique,178,ouvert
+TCKT117,2025-03-06,Germany-Munich,Ligne A1,AMOX250C,défaut technique,mineure,52,ouvert
+TCKT027,2025-03-05,Germany-Berlin,Line 7,VACCINX,défaut technique,mineure,51,clos
+TCKT105,2025-03-05,USA-Boston,Line 7,VITD1000,documentation manquante,mineure,38,ouvert
+TCKT130,2025-03-05,USA-Boston,Linie 3,VITD1000,défaut technique,critique,135,clos
+TCKT058,2025-03-08,Germany-Munich,Linie 3,ASPIRIN81,erreur étiquetage,mineure,26,en cours
+TCKT100,2025-03-03,Germany-Berlin,Line 2,ASPIRIN81,défaut technique,mineure,28,ouvert
+TCKT025,2025-03-12,Germany-Berlin,Ligne B2,VITD1000,contamination,majeure,109,ouvert
+TCKT026,2025-03-18,France-Grenoble,Linie 2,ZINCPLUS,documentation manquante,majeure,29,clos
+TCKT020,2025-03-17,Germany-Berlin,Line 7,IBUPRO400,documentation manquante,critique,199,ouvert
+TCKT013,2025-03-07,USA-Boston,Linie 3,VITD1000,défaut technique,mineure,38,clos
+TCKT097,2025-03-07,USA-Boston,Linie 3,VACCINX,erreur étiquetage,critique,64,en cours
+TCKT017,2025-03-09,Germany-Munich,Line 2,AMOX500,contamination,critique,278,ouvert
+TCKT064,2025-03-01,France-Lyon,Line 2,IBUPRO200,manquant,critique,89,clos
+TCKT046,2025-03-09,Germany-Munich,Line 7,IBUPRO400,défaut technique,majeure,293,en cours
+TCKT033,2025-03-02,Germany-Berlin,Linie 3,IBUPRO200,contamination,critique,201,en cours
+TCKT094,2025-03-11,France-Lyon,Line 4,IBUPRO400,erreur étiquetage,critique,102,ouvert
+TCKT016,2025-03-12,Germany-Munich,Linie 3,VITD1000,documentation manquante,mineure,10,ouvert
+TCKT089,2025-03-12,Germany-Berlin,Linie 3,AMOX500,défaut technique,majeure,32,ouvert
+TCKT037,2025-03-20,Germany-Berlin,Line 7,VITD1000,manquant,critique,121,clos
+TCKT038,2025-03-09,France-Grenoble,Ligne C4,AMOX250C,défaut technique,mineure,46,en cours
+TCKT039,2025-03-12,France-Lyon,Ligne C4,AMOX250C,défaut technique,mineure,19,clos
+TCKT040,2025-03-14,France-Lyon,Line 4,ZINCPLUS,erreur étiquetage,majeure,189,en cours
+TCKT048,2025-03-04,USA-Chicago,Linie 5,PARA500MG,contamination,mineure,18,ouvert
+TCKT133,2025-03-09,France-Lyon,Ligne A1,ASPIRIN81,manquant,majeure,253,en cours
+TCKT043,2025-03-12,Germany-Munich,Ligne A1,ZINCPLUS,documentation manquante,mineure,46,clos
+TCKT007,2025-03-16,France-Lyon,Ligne C4,ZINCPLUS,manquant,mineure,58,ouvert
+TCKT045,2025-03-09,Germany-Berlin,Line 4,ASPIRIN81,documentation manquante,mineure,51,en cours
+TCKT110,2025-03-14,Germany-Munich,Linie 5,ASPIRIN81,manquant,majeure,246,en cours
+TCKT059,2025-03-01,France-Grenoble,Line 4,ZINCPLUS,contamination,mineure,5,en cours
+TCKT080,2025-03-08,USA-Chicago,Ligne B2,ASPIRIN81,défaut technique,mineure,54,ouvert
+TCKT049,2025-03-06,France-Grenoble,Linie 5,ASPIRIN81,contamination,mineure,56,ouvert
+TCKT125,2025-03-09,USA-Chicago,Linie 3,PARA500MG,défaut technique,critique,63,clos
+TCKT147,2025-03-11,France-Lyon,Linie 2,IBUPRO400,documentation manquante,mineure,10,clos
+TCKT034,2025-03-23,France-Lyon,Line 4,VACCINX,documentation manquante,majeure,271,ouvert
+TCKT041,2025-03-10,USA-Chicago,Ligne A1,PARA500MG,contamination,critique,254,ouvert
+TCKT050,2025-03-10,USA-Chicago,Ligne C4,PARA500MG,défaut technique,mineure,32,ouvert
+TCKT055,2025-03-10,USA-Chicago,Ligne B2,AMOX500,contamination,critique,175,ouvert
+TCKT015,2025-03-15,France-Lyon,Linie 2,AMOX500,documentation manquante,majeure,165,en cours
+TCKT057,2025-03-04,Germany-Berlin,Ligne C4,IBUPRO200,défaut technique,mineure,28,ouvert
+TCKT139,2025-03-14,Germany-Munich,Line 7,PARA500MG,contamination,majeure,104,en cours
+TCKT047,2025-03-09,France-Grenoble,Line 4,ASPIRIN81,documentation manquante,mineure,28,clos
+TCKT140,2025-03-07,USA-Boston,Ligne C4,VACCINX,défaut technique,critique,260,ouvert
+TCKT030,2025-03-15,Germany-Munich,Ligne B2,VACCINX,défaut technique,mineure,30,clos
+TCKT062,2025-03-05,France-Lyon,Line 2,VITD1000,contamination,majeure,197,en cours
+TCKT060,2025-03-08,USA-Boston,Line 2,AMOX500,erreur étiquetage,majeure,256,en cours
+TCKT104,2025-03-13,France-Lyon,Line 2,AMOX500,documentation manquante,mineure,10,clos
+TCKT073,2025-03-17,France-Lyon,Ligne C4,PARA500MG,manquant,critique,59,clos
+TCKT072,2025-03-11,USA-Chicago,Ligne C4,PARA500MG,défaut technique,critique,88,clos
+TCKT086,2025-03-19,France-Grenoble,Line 2,VITD1000,contamination,critique,173,ouvert
+TCKT123,2025-03-02,France-Grenoble,Linie 3,IBUPRO400,contamination,mineure,11,ouvert
+TCKT069,2025-03-08,USA-Boston,Line 2,VITD1000,documentation manquante,mineure,27,en cours
+TCKT128,2025-03-12,USA-Chicago,Ligne B2,IBUPRO200,contamination,majeure,270,ouvert
+TCKT091,2025-03-17,Germany-Munich,Linie 3,ZINCPLUS,manquant,mineure,17,clos
+TCKT003,2025-03-15,USA-Chicago,Line 7,IBUPRO200,erreur étiquetage,critique,90,clos
+TCKT090,2025-03-21,France-Lyon,Ligne C4,IBUPRO200,manquant,majeure,185,clos
+TCKT074,2025-03-23,France-Grenoble,Linie 5,PARA500MG,manquant,majeure,203,ouvert
+TCKT075,2025-03-18,France-Grenoble,Line 4,IBUPRO400,contamination,majeure,246,en cours
+TCKT109,2025-03-09,USA-Boston,Line 2,ZINCPLUS,défaut technique,majeure,149,ouvert
+TCKT014,2025-03-22,France-Grenoble,Line 2,VITD1000,manquant,mineure,29,en cours
+TCKT078,2025-03-19,France-Grenoble,Linie 2,ASPIRIN81,contamination,majeure,272,en cours
+TCKT079,2025-03-26,France-Lyon,Line 7,AMOX250C,documentation manquante,majeure,237,clos
+TCKT004,2025-03-15,USA-Chicago,Linie 5,VACCINX,défaut technique,mineure,46,en cours
+TCKT061,2025-03-19,Germany-Munich,Line 2,AMOX250C,manquant,critique,146,en cours
+TCKT085,2025-03-14,Germany-Berlin,Line 4,PARA500MG,documentation manquante,critique,269,en cours
+TCKT148,2025-03-15,USA-Chicago,Line 7,IBUPRO200,manquant,majeure,156,en cours
+TCKT010,2025-03-22,Germany-Berlin,Ligne A1,ASPIRIN81,défaut technique,majeure,174,ouvert
+TCKT082,2025-03-27,Germany-Berlin,Line 4,VITD1000,contamination,mineure,42,en cours
+TCKT067,2025-03-26,France-Grenoble,Line 2,AMOX250C,manquant,majeure,42,clos
+TCKT087,2025-03-15,France-Grenoble,Ligne B2,ASPIRIN81,contamination,critique,299,clos
+TCKT088,2025-03-14,France-Grenoble,Ligne A1,PARA500MG,erreur étiquetage,critique,231,clos
+TCKT036,2025-03-24,Germany-Berlin,Linie 3,PARA500MG,manquant,majeure,240,en cours
+TCKT065,2025-03-28,France-Lyon,Ligne C4,PARA500MG,défaut technique,critique,199,ouvert
+TCKT008,2025-03-20,Germany-Munich,Line 7,PARA500MG,erreur étiquetage,critique,220,clos
+TCKT092,2025-03-17,USA-Chicago,Linie 2,AMOX500,manquant,majeure,280,clos
+TCKT093,2025-03-17,Germany-Berlin,Ligne B2,IBUPRO200,défaut technique,majeure,27,ouvert
+TCKT052,2025-03-25,France-Lyon,Line 4,ZINCPLUS,manquant,majeure,146,clos
+TCKT095,2025-03-07,France-Lyon,Linie 5,VACCINX,erreur étiquetage,mineure,59,ouvert
+TCKT023,2025-03-20,Germany-Munich,Ligne B2,AMOX250C,contamination,critique,29,en cours
+TCKT022,2025-03-13,USA-Boston,Line 2,VACCINX,documentation manquante,mineure,21,clos
+TCKT098,2025-03-05,Germany-Berlin,Line 2,VACCINX,défaut technique,mineure,26,en cours
+TCKT006,2025-03-16,France-Lyon,Linie 5,ZINCPLUS,défaut technique,majeure,153,ouvert
+TCKT024,2025-03-13,Germany-Berlin,Line 2,AMOX250C,contamination,critique,71,ouvert
+TCKT096,2025-03-20,Germany-Munich,Linie 2,IBUPRO200,erreur étiquetage,mineure,7,clos
+TCKT102,2025-03-22,Germany-Berlin,Line 2,VACCINX,manquant,critique,271,clos
+TCKT126,2025-03-20,Germany-Munich,Linie 3,VACCINX,défaut technique,critique,212,clos
+TCKT031,2025-03-15,France-Lyon,Line 2,PARA500MG,contamination,mineure,27,en cours
+TCKT076,2025-03-14,USA-Boston,Linie 2,AMOX500,documentation manquante,mineure,38,en cours
+TCKT131,2025-03-15,USA-Boston,Ligne C4,ASPIRIN81,manquant,critique,12,clos
+TCKT145,2025-03-14,Germany-Berlin,Ligne C4,IBUPRO400,erreur étiquetage,mineure,18,en cours
+TCKT108,2025-03-29,Germany-Berlin,Linie 2,IBUPRO400,défaut technique,mineure,56,clos
+TCKT011,2025-03-19,USA-Boston,Linie 3,VACCINX,erreur étiquetage,mineure,16,clos
+TCKT101,2025-03-21,Germany-Munich,Ligne B2,VACCINX,manquant,mineure,24,en cours
+TCKT135,2025-03-20,Germany-Berlin,Line 7,AMOX250C,manquant,critique,141,clos
+TCKT081,2025-03-23,Germany-Munich,Ligne A1,IBUPRO400,erreur étiquetage,majeure,105,en cours
+TCKT063,2025-03-21,USA-Boston,Linie 2,IBUPRO200,erreur étiquetage,majeure,76,ouvert
+TCKT114,2025-03-01,France-Grenoble,Ligne A1,VITD1000,erreur étiquetage,critique,10,clos
+TCKT111,2025-03-23,Germany-Berlin,Line 7,ZINCPLUS,erreur étiquetage,majeure,280,ouvert
+TCKT116,2025-03-01,Germany-Berlin,Linie 2,AMOX250C,contamination,mineure,18,ouvert
+TCKT103,2025-03-23,Germany-Munich,Ligne A1,IBUPRO400,défaut technique,critique,275,clos
+TCKT056,2025-03-18,France-Lyon,Linie 2,VACCINX,erreur étiquetage,mineure,21,en cours
+TCKT119,2025-03-19,France-Lyon,Linie 3,PARA500MG,documentation manquante,mineure,43,clos
+TCKT124,2025-03-23,USA-Boston,Linie 5,ASPIRIN81,documentation manquante,mineure,44,clos
+TCKT121,2025-03-29,France-Lyon,Ligne C4,VITD1000,documentation manquante,critique,22,clos
+TCKT001,2025-03-15,France-Lyon,Ligne A1,PARA500MG,contamination,critique,180,clos
+TCKT068,2025-03-13,France-Grenoble,Linie 3,VITD1000,défaut technique,critique,290,ouvert
+TCKT029,2025-03-24,USA-Boston,Linie 3,VITD1000,contamination,critique,19,en cours
+TCKT054,2025-03-18,USA-Chicago,Linie 2,AMOX250C,documentation manquante,mineure,59,clos
+TCKT112,2025-03-25,Germany-Munich,Ligne B2,VITD1000,défaut technique,majeure,31,clos
+TCKT083,2025-03-22,USA-Chicago,Ligne C4,IBUPRO400,contamination,critique,212,ouvert
+TCKT127,2025-03-22,USA-Chicago,Linie 2,IBUPRO200,documentation manquante,majeure,191,clos
+TCKT137,2025-03-22,USA-Chicago,Line 4,ZINCPLUS,documentation manquante,majeure,117,ouvert
+TCKT141,2025-03-28,USA-Boston,Ligne C4,VITD1000,manquant,majeure,104,ouvert
+TCKT021,2025-03-29,USA-Boston,Line 2,VITD1000,erreur étiquetage,majeure,83,en cours
+TCKT132,2025-03-22,France-Lyon,Line 2,AMOX250C,contamination,majeure,181,ouvert
+TCKT042,2025-03-19,France-Lyon,Ligne A1,VITD1000,défaut technique,majeure,34,clos
+TCKT134,2025-03-05,France-Lyon,Linie 3,IBUPRO200,contamination,critique,49,ouvert
+TCKT115,2025-03-29,Germany-Berlin,Line 7,IBUPRO200,défaut technique,majeure,80,en cours
+TCKT107,2025-03-19,Germany-Berlin,Ligne C4,ZINCPLUS,défaut technique,critique,198,clos
+TCKT070,2025-03-27,USA-Chicago,Ligne C4,ZINCPLUS,documentation manquante,mineure,25,ouvert
+TCKT138,2025-03-10,France-Grenoble,Ligne C4,VITD1000,défaut technique,critique,168,en cours
+TCKT035,2025-03-28,Germany-Munich,Ligne B2,IBUPRO400,contamination,critique,103,clos
+TCKT106,2025-03-29,USA-Boston,Ligne C4,VITD1000,documentation manquante,majeure,215,en cours
+TCKT120,2025-03-29,USA-Boston,Line 4,AMOX250C,contamination,critique,175,ouvert
+TCKT142,2025-03-28,Germany-Munich,Line 4,PARA500MG,contamination,majeure,253,clos
+TCKT143,2025-03-07,France-Grenoble,Ligne B2,VITD1000,erreur étiquetage,mineure,38,clos
+TCKT019,2025-03-29,Germany-Munich,Ligne A1,IBUPRO400,erreur étiquetage,mineure,21,clos
+TCKT146,2025-03-19,Germany-Berlin,Ligne C4,AMOX250C,contamination,mineure,11,ouvert
+TCKT136,2025-03-26,Germany-Berlin,Ligne C4,AMOX250C,erreur étiquetage,critique,220,clos
+TCKT051,2025-03-24,France-Lyon,Linie 2,AMOX500,contamination,critique,165,ouvert
+TCKT129,2025-03-28,USA-Chicago,Ligne C4,AMOX250C,défaut technique,majeure,58,clos

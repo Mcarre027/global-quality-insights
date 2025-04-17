@@ -1,0 +1,168 @@
+/* assets/style.css */
+
+/* Applique une police élégante et claire */
+body {
+    background-color: #f8f9fa; /* léger gris clair */
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  /* Centre tout le contenu de la page */
+    min-height: 100vh; /* Assure que le body prend toute la hauteur */
+    margin: 0;
+    padding: 0;
+}
+
+/* Centrer tout le contenu */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;  /* Limite la largeur pour éviter que le contenu soit trop large */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Personnalise les titres principaux */
+h1, h2, h3 {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #343a40;
+    text-align: center; /* Centre les titres */
+}
+
+/* Espacement autour des paragraphes et titres */
+p, li {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    text-align: justify; /* Justifie les paragraphes */
+    max-width: 800px; /* Limite la largeur des paragraphes */
+}
+
+/* Espacement entre les sections */
+.section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+    width: 100%; /* Assure que la section prend toute la largeur disponible */
+}
+
+/* Style de la navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #007bff;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 2rem;
+}
+
+/* Lien de la navbar */
+.nav-link {
+    font-weight: 500;
+    color: white !important;
+    margin-right: 1rem;
+}
+
+/* Personnalisation du bouton */
+button.btn-outline-secondary {
+    border-radius: 20px;
+    font-size: 0.85rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button.btn-outline-secondary:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Centrer le lecteur vidéo */
+.video-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Style pour le graphique */
+.dash-graph {
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+/* Section de vidéo et graphique */
+.video-section, .graph-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Style pour l'iframe Mermaid */
+.mermaid {
+    margin-top: 2rem;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Pour les icônes */
+.icon-box {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    margin: 0 auto;
+}
+
+/* Style du contenu principal */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Animations pour l'apparition du contenu */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.section {
+    animation: fadeIn 1s ease-out;
+}
+
+/* Espacement supplémentaire dans les sections */
+.section-title {
+    background-color: #e9ecef;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
