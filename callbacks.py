@@ -1,10 +1,12 @@
 # callbacks.py
+print("📦 Chargement de callbacks.py")
 from dash import Input, Output
 import plotly.express as px
 import pandas as pd
 
 def register_callbacks(app):
     # Chargement et nettoyage du CSV
+    print("📄 Lecture du fichier CSV...")
     df_raw = pd.read_csv("assets/tickets_clean.csv", encoding='latin1')
 
     for col in ['Type_incident', 'Site', 'Priorite']:
