@@ -28,6 +28,8 @@ def register_callbacks(app):
         Input("dropdown-priorite", "value"),
     )
     def update_graphs(lang, selected_pays, selected_priorite):
+        print(f"📊 Filtres appliqués – Lang: {lang}, Pays: {selected_pays}, Priorité: {selected_priorite}")
+        print(f"📊 Taille du dataframe filtré : {len(dff)} lignes")
         dff = df_raw.copy()
 
         # Harmonisation des valeurs des filtres
