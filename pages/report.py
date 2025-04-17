@@ -11,7 +11,7 @@ def layout(lang='fr'):
             html.H3("\U0001F4C2 Project Documentation Access"),
             html.Ul([
                 html.Li(html.A("Confluence – Project Summary", href="https://confluence.external-share.com/content/9e9299c5-4122-41bd-bedb-41a1d49f67aa", target="_blank")),
-                html.Li(html.A("PDF – Quality Report", href="https://drive.google.com/file/d/1D4vzcV_4FvE7bgG_cP__Jukxlflpr6MT/view?usp=sharing", target="_blank")),
+                html.Li(html.A("PDF – Quality Report", href="https://drive.google.com/file/d/1glk-s4jTSVRpSrcqamzCxbSP699SmndA/view?usp=sharing", target="_blank")),
             ]),
 
             html.Div(style={"height": "20px"}),
@@ -118,7 +118,7 @@ def layout(lang='fr'):
             html.H3("\U0001F4C2 Accès à la documentation du projet"),
             html.Ul([
                 html.Li(html.A("Confluence – Synthèse du projet", href="https://confluence.external-share.com/content/9e9299c5-4122-41bd-bedb-41a1d49f67aa", target="_blank")),
-                html.Li(html.A("PDF – Rapport qualité", href="https://drive.google.com/file/d/1D4vzcV_4FvE7bgG_cP__Jukxlflpr6MT/view?usp=sharing", target="_blank")),
+                html.Li(html.A("PDF – Rapport qualité", href="https://drive.google.com/file/d/1glk-s4jTSVRpSrcqamzCxbSP699SmndA/view?usp=sharing", target="_blank")),
             ]),
 
             html.Div(style={"height": "20px"}),
