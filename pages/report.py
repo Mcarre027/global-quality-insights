@@ -11,7 +11,7 @@ def layout(lang='fr'):
             html.H3("\U0001F4C2 Project Documentation Access"),
             html.Ul([
                 html.Li(html.A("Confluence – Project Summary", href="https://confluence.external-share.com/content/9e9299c5-4122-41bd-bedb-41a1d49f67aa", target="_blank")),
-                html.Li(html.A("PDF – Quality Report", href="https://drive.google.com/file/d/1glk-s4jTSVRpSrcqamzCxbSP699SmndA/view?usp=sharing", target="_blank")),
+                html.Li(html.A("PDF – Quality Report", href="https://drive.google.com/file/d/1rWB1_UTUA2qim1tyFEEFga7qJ16HMQGU/view?usp=sharing", target="_blank")),
             ]),
 
             html.Div(style={"height": "20px"}),
@@ -28,6 +28,7 @@ def layout(lang='fr'):
             html.Ul([
                 html.Li(html.A("Procedure – Data Cleaning & Preparation", href="https://confluence.external-share.com/content/c75b6fdd-17fa-4971-987c-d1761a705214", target="_blank")),
                 html.Li(html.A("User Documentation – Dashboard", href="https://confluence.external-share.com/content/f50418fa-ebaa-457b-8222-f21e1c9dbc6a", target="_blank")),
+                html.Li(html.A("Quality Procedure – Format Change Packaging Line (100 ml → 250 ml)", href="https://confluence.external-share.com/content/729763/external_share_link", target="_blank")),
             ]),
 
             html.Div(style={"height": "20px"}),
@@ -140,6 +141,7 @@ def layout(lang='fr'):
             html.Ul([
                 html.Li(html.A("Procédure – Nettoyage & Préparation des Données", href="https://confluence.external-share.com/content/c75b6fdd-17fa-4971-987c-d1761a705214", target="_blank")),
                 html.Li(html.A("Documentation Utilisateur – Tableau de bord", href="https://confluence.external-share.com/content/f50418fa-ebaa-457b-8222-f21e1c9dbc6a", target="_blank")),
+                html.Li(html.A("Procédure Qualité – Changement de Format Ligne de Conditionnement (100 ml → 250 ml)", href="https://confluence.external-share.com/content/729763/external_share_link", target="_blank")),
             ]),
 
             html.Div(style={"height": "20px"}),
