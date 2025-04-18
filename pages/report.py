@@ -26,10 +26,11 @@ def layout(lang='fr'):
             html.Div(style={"height": "20px"}),
             html.H3("\U0001F4D8 Confluence – Quality Procedure"),
             html.Ul([
-                html.Li(html.A("SOP – Ticket Processing", href="https://confluence.external-share.com/content/c75b6fdd-17fa-4971-987c-d1761a705214", target="_blank")),
-                html.Li(html.A("Technical Documentation – Dashboard", href="https://confluence.external-share.com/content/f50418fa-ebaa-457b-8222-f21e1c9dbc6a", target="_blank")),
+                html.Li(html.A("Procedure – Data Cleaning & Preparation", href="https://confluence.external-share.com/content/c75b6fdd-17fa-4971-987c-d1761a705214", target="_blank")),
+                html.Li(html.A("User Documentation – Dashboard", href="https://confluence.external-share.com/content/f50418fa-ebaa-457b-8222-f21e1c9dbc6a", target="_blank")),
             ]),
 
+            html.Div(style={"height": "20px"}),
             html.Div(style={"height": "20px"}),
             html.H3("\U0001F4CB Jira Tickets (sample)"),
             dbc.Table([
@@ -48,8 +49,10 @@ def layout(lang='fr'):
             ]),
 
             html.Div(style={"height": "20px"}),
+            html.Div(style={"height": "20px"}),
             html.H3("\U0001F50D Filters and Jira Ticket Table"),
             html.H4("\u2699\ufe0f Jira Filters"),
+            html.Div(style={"height": "20px"}),
             html.Ul([
                 html.Li(html.A("To-do Ticket", href="https://carrehomebusiness.atlassian.net/issues/?filter=10152&atlOrigin=eyJpIjoiZDU2ZTA3N2I1ZTVmNDAwYjlkZmI1MGZjNThiMGFjNTYiLCJwIjoiaiJ9", target="_blank")),
                 html.Li(html.A("Closed Ticket", href="https://carrehomebusiness.atlassian.net/issues/?filter=10153&atlOrigin=eyJpIjoiMDY4NGE3YzI5YjYzNDQ3OGIyYzRjZWQzMzg3YzUzODciLCJwIjoiaiJ9", target="_blank")),
@@ -90,6 +93,7 @@ def layout(lang='fr'):
 
             html.Div(style={"height": "20px"}),
             html.H4("\U0001F4C4 Ticket Table View"),
+            html.Div(style={"height": "20px"}),
             html.Ul([
                 html.Li(html.A("Global Ticket Table", href="https://carrehomebusiness.atlassian.net/jira/dashboards/10002", target="_blank")),
                 html.Li(html.A("Matthieu's Ticket Table", href="https://carrehomebusiness.atlassian.net/jira/dashboards/10036", target="_blank")),
@@ -134,8 +138,8 @@ def layout(lang='fr'):
 
             html.H3("\U0001F4D8 Procédure qualité Confluence"),
             html.Ul([
-                html.Li(html.A("Procédure – Traitement des Tickets", href="https://confluence.external-share.com/content/c75b6fdd-17fa-4971-987c-d1761a705214", target="_blank")),
-                html.Li(html.A("Documentation technique – Tableau de bord", href="https://confluence.external-share.com/content/f50418fa-ebaa-457b-8222-f21e1c9dbc6a", target="_blank")),
+                html.Li(html.A("Procédure – Nettoyage & Préparation des Données", href="https://confluence.external-share.com/content/c75b6fdd-17fa-4971-987c-d1761a705214", target="_blank")),
+                html.Li(html.A("Documentation Utilisateur – Tableau de bord", href="https://confluence.external-share.com/content/f50418fa-ebaa-457b-8222-f21e1c9dbc6a", target="_blank")),
             ]),
 
             html.Div(style={"height": "20px"}),
@@ -150,15 +154,20 @@ def layout(lang='fr'):
                 ])
             ], bordered=True, hover=True, responsive=True, striped=True),
 
+            html.Div(style={"height": "20px"}),
+            html.Div(style={"height": "20px"}),
             html.Br(),
             html.H3("\U0001F4CA Visualisation Tableau de bord Jira"),
             html.Ul([
                 html.Li(html.A("Accéder au tableau Jira", href="https://jira.external-share.com/issue/445bc81f-d915-4fca-b44f-d49408bc0787", target="_blank")),
             ]),
 
+            html.Div(style={"height": "20px"}),
+            html.Div(style={"height": "20px"}),
             html.H3("\U0001F50D Filtres et tableau Jira par ticket"),
             html.Div(style={"height": "20px"}),
             html.H4("\u2699\ufe0f Filtre Jira"),
+            html.Div(style={"height": "20px"}),
             html.Ul([
                 html.Li(html.A("Ticket a faire", href="https://carrehomebusiness.atlassian.net/issues/?filter=10152&atlOrigin=eyJpIjoiZDU2ZTA3N2I1ZTVmNDAwYjlkZmI1MGZjNThiMGFjNTYiLCJwIjoiaiJ9", target="_blank")),
                 html.Li(html.A("Ticket Clôturé", href="https://carrehomebusiness.atlassian.net/issues/?filter=10153&atlOrigin=eyJpIjoiMDY4NGE3YzI5YjYzNDQ3OGIyYzRjZWQzMzg3YzUzODciLCJwIjoiaiJ9", target="_blank")),
@@ -198,6 +207,7 @@ def layout(lang='fr'):
             
             html.Div(style={"height": "20px"}), 
             html.H4("\U0001F4C4 Tableau par ticket"),
+            html.Div(style={"height": "20px"}),
             html.Ul([ 
                 html.Li(html.A("Tableau global des tickets", href="https://carrehomebusiness.atlassian.net/jira/dashboards/10002", target="_blank")),
                 html.Li(html.A("Tableau de Matthieu", href="https://carrehomebusiness.atlassian.net/jira/dashboards/10036", target="_blank")),
